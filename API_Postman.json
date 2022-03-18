@@ -1,0 +1,110 @@
+{
+	"id": "d0aa5940-9345-466c-a774-a69c8564e5f6",
+	"name": "KEn",
+	"timestamp": "2022-03-17T09:47:53.447Z",
+	"collection_id": "19130477-49798f2b-093e-42ab-8a5d-8957b10ee150",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "5aef9cda-af3f-47e7-8341-103e15a93ba2",
+			"name": "list users",
+			"url": "https://reqres.in/api/users?page=1",
+			"time": 72,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				72
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0b3e0e4e-b37a-4239-a2f1-9200e9e066f7",
+			"name": "single user",
+			"url": "https://reqres.in/api/users/2",
+			"time": 69,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				69
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e6eac801-d8ae-4cb9-97c9-9fc4e408387f",
+			"name": "update",
+			"url": "https://reqres.in/api/users/2",
+			"time": 408,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				408
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "236d449b-ede1-4ddc-8073-5d7cc8ec5814",
+			"name": "update password single user",
+			"url": "https://reqres.in/api/users/2",
+			"time": 400,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				400
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 949,
+	"collection": {
+		"requests": [
+			{
+				"id": "5aef9cda-af3f-47e7-8341-103e15a93ba2",
+				"method": "GET"
+			},
+			{
+				"id": "0b3e0e4e-b37a-4239-a2f1-9200e9e066f7",
+				"method": "GET"
+			},
+			{
+				"id": "e6eac801-d8ae-4cb9-97c9-9fc4e408387f",
+				"method": "PUT"
+			},
+			{
+				"id": "236d449b-ede1-4ddc-8073-5d7cc8ec5814",
+				"method": "PUT"
+			},
+			{
+				"id": "391be4a6-111c-4e94-aa5f-5b039f3695e5",
+				"method": "POST"
+			}
+		]
+	}
+}
